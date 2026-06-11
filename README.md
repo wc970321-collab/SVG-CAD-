@@ -55,7 +55,7 @@ AutoCAD 会自动开始运行脚本并绘制图形。
 如果想要调整生成的图纸大小，可以修改 convert.py 文件底部的调用参数：
 code
 Python
-# 调整 scale 参数：若生成的图纸偏小，可将 1.0 改为 2.0 或更大；若偏大则改小
+### 调整 scale 参数：若生成的图纸偏小，可将 1.0 改为 2.0 或更大；若偏大则改小
 svg_to_cad_scr("boy.svg", "boy_rose.scr", scale=1.0)
 ⚠️ 局限性说明
 
@@ -66,7 +66,7 @@ svg_to_cad_scr("boy.svg", "boy_rose.scr", scale=1.0)
 
 本项目基于 MIT License 协议开源。
 
-实时手绘效果——玫瑰花 LISP 代码：
+## 4.实时手绘效果——玫瑰花 LISP 代码：
 请完整复制下方框中的所有代码，然后直接粘贴到 AutoCAD 底部的命令行窗口中，并按下回车键：
 ```bash
 (vl-load-com)
@@ -135,3 +135,6 @@ svg_to_cad_scr("boy.svg", "boy_rose.scr", scale=1.0)
   (princ)
 )
 (c:roseanimate)
+```
+<img width="400" height="300" alt="video-to-gif-1781166938258" src="https://github.com/user-attachments/assets/a26952ed-d0eb-4d38-bb99-570d065c79eb" />
+
