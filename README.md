@@ -3,6 +3,8 @@
 这是一个轻量级的 Python 脚本，用于将 SVG 格式的矢量线条图转换成 AutoCAD 的脚本文件（`.scr`）。
 
 导入 AutoCAD 运行后，可以实现像手绘一样逐笔自动画图的效果，常用于抖音、快手等平台上的“CAD 自动画图”创意视频制作。
+<img width="1756" height="807" alt="image" src="https://github.com/user-attachments/assets/771d4295-f0ce-40e6-a617-9a14a47a63b9" />
+
 
 ---
 
